@@ -1,9 +1,9 @@
 # -*- coding:utf-8 -*-
 '''
-This tool is to simplify the steps to download TCGA data.The tool has two main parameters,
--m is the manifest file path.
--s is the location where the downloaded file is to be saved (it is best to create a new folder for the downloaded data).
-This tool supports breakpoint resuming. After the program is interrupted, it can be restarted,and the program will download file after the last downloaded file. Note that this download tool converts the file in the past folder format directly into a txt file. The file name is the UUID of the file in the original TCGA. If necessary, press ctrl+c to terminate the program.
+该工具有两个主要参数，
+-m   manifest文本文件路径.
+-s   是要保存下载文件的位置(最好为下载的数据创建一个新文件夹)
+程序中断后，可以重新启动，程序将在最后下载文件后下载文件。注意，此下载工具将过去文件夹格式的文件直接转换为txt文件。文件名是原始TCGA中文件的UUID。如有必要，按ctrl+c终止程序。
 '''
 
 import os
